@@ -30,3 +30,18 @@
     margin: 0 auto;
   }
 }
+.Moldal-loading{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(#000,.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 55555555;
+  img{
+    width: 40px;
+  }
+}

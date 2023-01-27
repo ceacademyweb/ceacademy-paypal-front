@@ -4,6 +4,12 @@ import addClass from '../utils/addClass';
 const Suscripcion = () => {
   addClass();
   const buttonAction = async () => {
+    const loading = document.createElement('div');
+    loading.className = 'Moldal-loading';
+    loading.innerHTML = `
+      <img src="/img/load.svg" alt="">
+    `;
+    document.body.appendChild(loading);
     const response = await fetch(
       'https://ceacademy-paypal-back-production.up.railway.app/create-order',
       {
