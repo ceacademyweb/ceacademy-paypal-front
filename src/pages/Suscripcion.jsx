@@ -3,7 +3,6 @@ import addClass from '../utils/addClass';
 
 const Suscripcion = () => {
   addClass();
-  alert('aler´t');
   const buttonAction = async () => {
     const loading = document.createElement('div');
     loading.className = 'Moldal-loading';
