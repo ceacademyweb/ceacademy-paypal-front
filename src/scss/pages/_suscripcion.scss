@@ -1,0 +1,32 @@
+.btn-suscripcion{
+  background-color: rgba(gray,.3);
+  display: inline-block;
+  padding: 1em;
+  border-radius: .5rem;
+  // position: absolute;
+  bottom: 20vh;
+  right: 10%;
+}
+.suscripcion{
+  position: relative;
+}
+.paypal-container{
+  background-color: rgba(lightgray, .2);
+  border: 1px solid rgba(#000,.3);
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center !important;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  max-width: 400px;
+  p{
+    text-align: center;
+  }
+  img{
+    width: 75%;
+    margin: 0 auto;
+  }
+}
