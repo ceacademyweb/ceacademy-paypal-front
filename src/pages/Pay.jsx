@@ -6,7 +6,7 @@ const Pay = () => {
   addClass();
   return (
     <section class="section Pay">
-      <h1>Suscripcion pagada</h1>
+      <h1>Suscripción pagada</h1>
     </section>
   );
 };

@@ -22,7 +22,7 @@ const Suscripcion = () => {
   return (
     <section className="section Suscripcion">
       <div className="paypal-container" onClick={buttonAction}>
-        <p>Pan de Suscripcion Mensual</p>
+        <p>Pan de Suscripción Mensual</p>
         <p>USD $200.00</p>
         <img src="/img/paypalbuttons.png" alt="" />
       </div>
