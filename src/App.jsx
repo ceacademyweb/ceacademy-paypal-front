@@ -70,9 +70,9 @@ function App() {
           <Route
             path="/suscripcion"
             element={
-              <ProtectedRoute user={user}>
-                <Suscripcion />
-              </ProtectedRoute>
+              // <ProtectedRoute user={user}>
+              <Suscripcion />
+              // </ProtectedRoute>
             }
           />
           <Route
